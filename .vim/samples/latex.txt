@@ -1,0 +1,28 @@
+\documentclass[12pt]{article}
+
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage{eurosym}
+\usepackage{amsmath}
+
+\title{Sample Title}
+\author{Sample Author}
+
+
+\begin{document}
+  \maketitle
+  \newpage
+  \section*{Section not included in TOC}
+    %\input{tex/file.tex}
+  \tableofcontents
+  \section{Normal Section}
+    %\input{tex/file.tex}
+  \begin{thebibliography}{}
+    \bibitem{sample} Lalala\\
+      \url{http://lalala.com}
+  \end{thebibliography}
+\end{document}

@@ -1,0 +1,13 @@
+<VirtualHost *:80>
+	ServerAdmin webmaster@localhost
+  ServerName samplename
+	DocumentRoot /home/sample/www
+
+	<Directory  /home/sample/www>
+		Options Indexes FollowSymLinks MultiViews
+		AllowOverride All
+		Order allow,deny
+		allow from all
+	</Directory>
+</VirtualHost>
+
